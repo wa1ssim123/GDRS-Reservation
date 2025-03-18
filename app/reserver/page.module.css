@@ -125,7 +125,7 @@
     }
   }
   
-  /* Ajout du style pour les nouvelles pages */
+  
 .section {
   max-width: 800px;
   margin: auto;
@@ -139,7 +139,7 @@
   text-align: center;
   font-size: 2.5rem;
   font-weight: bold;
-  color: #004d40; /* Même couleur que les autres pages */
+  color: #004d40; 
 }
 
 .description {

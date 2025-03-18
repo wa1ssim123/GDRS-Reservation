@@ -1,0 +1,224 @@
+/* Container principal */
+.reservation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Titre principal */
+  .reservation-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Formulaire */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+  
+  /* Labels */
+  .label {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Champs de texte */
+  .inputField {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  /* Champs avec focus */
+  .inputField:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Bouton de soumission */
+  .bouton {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .bouton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Liste des réservations */
+  h3.confirm {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 30px;
+  }
+  
+  .ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  li.message {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Select (salle) */
+  .select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .reservation-container {
+      padding: 15px;
+    }
+  
+    .reservation-title {
+      font-size: 1.6rem;
+    }
+  
+    .inputField,
+    .bouton,
+    .select {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Ajout du style pour les nouvelles pages */
+.section {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #004d40; /* Même couleur que les autres pages */
+}
+
+.description {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contactList li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.list li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list li::before {
+  content: ""; 
+}
+
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contactList li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactList li::before {
+  content: "📩";
+  margin-right: 10px;
+  color: #004d40;
+  font-weight: bold;
+}
+
+.contactList li:nth-child(2)::before {
+  content: "📞";
+}
+
+.contactList li:nth-child(3)::before {
+  content: "📍";
+}
+
+.contactList li:nth-child(4)::before {
+  content: "⏰";
+}
+
+.contactList li:nth-child(5)::before {
+  content: "⏳";
+}
+
+.contactList li:nth-child(6)::before {
+  content: "❌";
+}

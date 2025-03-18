@@ -1,0 +1,13 @@
+.footer {
+    background-color: #29402d;
+    padding: 1rem;
+    display: flex;
+    color: aliceblue;
+    justify-content: center; /* Centrer le texte */
+    align-items: center;
+    width: 100%;
+    position: relative; /* Correction pour éviter que le footer flotte */
+    bottom: 0;
+    left: 0;
+    margin-top: auto; /* Pousse le footer vers le bas */
+}
